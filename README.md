@@ -4,7 +4,7 @@
 
 An intelligent application designed to generate personalized travel itineraries. This project utilizes a full-stack architecture with a React frontend, a Python backend, and a dedicated AI integration layer.
 
-## 📂 Project Structure
+## Project Structure
 
 The repository is organized into three main components:
 
@@ -14,7 +14,7 @@ The repository is organized into three main components:
 
   * **`CIS_525-AI_Powered_Itinerary_Generator/`**: The core AI logic, containing prompts and scripts for generating itineraries[cite: 1].
 
-## 🚀 Technologies
+## Technologies
 
   * **Frontend:** React, Vite, CSS.
   
@@ -23,7 +23,7 @@ The repository is organized into three main components:
   * **Deployment:** Render (indicated by `render.yml` and `render.yaml` configuration files).
 
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 To run this project locally, you will need to set up each service individually.
 
@@ -84,27 +84,27 @@ To run this project locally, you will need to set up each service individually.
     uvicorn main:app --reload
     ```
 
-## ✨ Key Features
+## Key Features
 
   * **User Authentication:** Includes dedicated pages for Login (`LoginPage.jsx`) and Sign Up (`SignUpPage.jsx`).
   * **Itinerary Management:** Users can input travel details via `Form.jsx` and view generated plans on the `ItineraryListPage.jsx.
   * **AI Integration:** Utilizes custom prompts (`prompt.txt`) to generate tailored travel schedules.
 
-## ☁️ Deployment
+## Deployment
 
 This project is configured for deployment on **Render**.
 
   * Configuration files: `render.yml` (in the AI folder) and `render.yaml` (in the Backend folder).
   * The setup suggests a microservices approach where the backend and the AI generator may be deployed as separate services.
 
-## 📝 Database
+## Database
 
 Database documentation and CRUD operation guides are located in `cis525_backend/db/`:
 
   * `db.md`: General database documentation[cite: 1].
   * `crud.md`: Specifics on Create, Read, Update, Delete operations.
 
-## 🤝 Contributing
+## Contributing
 
 1.  Fork the repository.
 2.  Create a feature branch (`git checkout -b feature/AmazingFeature`).
