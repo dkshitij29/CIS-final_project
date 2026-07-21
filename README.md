@@ -1,6 +1,4 @@
-# CIS Final project
-
-## CIS 525: AI-Powered Itinerary Generator
+# AI-Powered Itinerary Generator
 
 An intelligent application designed to generate personalized travel itineraries. This project utilizes a full-stack architecture with a React frontend, a Python backend, and a dedicated AI integration layer.
 
